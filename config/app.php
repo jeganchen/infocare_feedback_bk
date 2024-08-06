@@ -18,7 +18,7 @@ return [
     | or any other location as required by the application or its packages.
     */
 
-    'version' => '1.8.147',
+    'version' => '1.0.0',
 
     /*
     |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ return [
     |
     */
 
-    'name' => 'FreeScout',
+    'name' => 'Feedback System',
 
     /*
     |--------------------------------------------------------------------------
@@ -98,8 +98,9 @@ return [
     */
 
     'locale'          => env('APP_LOCALE', 'en'),
-    'locales'         => ['en', 'zh-CN', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'it', 'ja', 'ko', 'no', 'fa', 'pl', 'pt-PT', 'pt-BR', 'ru', 'es', 'sk', 'sv', 'tr'],
-    'locales_rtl'     => ['fa'],
+    // 'locales'         => ['en', 'zh-CN', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'it', 'ja', 'ko', 'no', 'fa', 'pl', 'pt-PT', 'pt-BR', 'ru', 'es', 'sk', 'sv', 'tr'],
+    'locales'         => ['en', 'zh-CN'],
+    'locales_rtl'     => ['en'],
     'default_locale'  => 'en',
 
     /*
@@ -158,7 +159,7 @@ return [
     | FreeScout website
     |-------------------------------------------------------------------------
     */
-    'freescout_url' => 'https://freescout.net',
+    'freescout_url' => 'https://www.infocare.org.cn',
 
     /*
     |--------------------------------------------------------------------------
